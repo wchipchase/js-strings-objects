@@ -1,4 +1,4 @@
-const printToDom = (divId, textToPrint) => {
+ const printToDom = (divId, textToPrint) => {
     const selectedDiv = document.getElementById(divId);
     selectedDiv.innerHTML+= textToPrint
 };
@@ -23,16 +23,10 @@ const iAmThursty = (num) => {
     }
 };
 
-// console.log(iAmThursty(55));
-// console.log(iAmThursty(11));
-// console.log(iAmThursty(65));
-// console.log(iAmThursty(21));
-// console.log(iAmThursty(35));
 
 printToDom('thirsty', iAmThursty(55))
 printToDom('thirsty', iAmThursty(17))
-// iAmThursty(55);
-// iAmThursty(30);
-// iAmThursty(19)
 
-// bonus = print to dom
+console.log('cats'.length);
+const quote = "Winter is coming"
+console.log(quote.indexOf('is'));
